@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Casa Criativa</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="logo.png" alt="Logo do Site">
+	
+	 <p>
+    	Ficar em casa em períodos longos, não deve ser nada fácil.
+	</p>
+
+	<p>
+    	Iremos catalogar <strong>ideias, brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que for necessário para tornar esse momento mais interessante.
+	</p>
+
+	<p>
+	    Comece clicando em ver ideias para ver as  ideias cadastradas e contribua adicioando a sua ideia.
+	</p>
+
+	<button>+ Adicionar Idédia</button>
+	<button class="fat">Ver Idéias</button>
+
+	<p id="footer">
+    	Projeto criando e desenvolvido pela 🚀 <a href="http://rocketseat.com.br">Rocketseat</a>
+	</p>
+
+	
+	<script>
+		const button = document.querySelector("button.fat");
+
+
+		button.addEventListener("click", ()=>{
+			document.querySelector("#footer").classList.toggle("hide")	
+		})
+	</script>
+</body>
+</html>
